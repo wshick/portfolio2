@@ -1,6 +1,7 @@
 from shutil import copytree
 
 import markdown
+extensions = ['extra', 'admonition', 'meta', 'nl2br', 'sane_lists', 'smarty', 'wikilinks']
 
 # Copy static files to the build directory
 copytree("static/", "build/", dirs_exist_ok=True)
