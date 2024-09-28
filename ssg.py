@@ -17,7 +17,7 @@ with open("content/index.md") as file:
 	content = file.read()
 
 # Convert the markdown to HTML
-html = markdown.markdown(content, extensions)
+html = markdown.markdown(content, extensions=extensions)
 
 # Insert the HTML content into the template
 output: str = template.replace("{{content}}", html)
