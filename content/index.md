@@ -1,7 +1,9 @@
-# Welcome to my super cool website!
+# HOME/ABOUT
 
-Here you will find articles I write about stuff.
+[Hero-shot image slideshow]
 
-Testing *testing* **testing**  ***testing***
+[About Me]
 
-[Link](/00--OBJECT & OVERVIEW)
+[Portrait Image]
+
+[Test Link](/active_projects/mf0_ra_c/00--OBJECT & OVERVIEW)
