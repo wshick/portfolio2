@@ -36,7 +36,7 @@ jobs:
           pip install mdx_outline
           pip install mdx_truly_sane_lists
           pip install mdx_wikilink_plus
-          pip install python-tableau-parser
+          pip install git+https://github.com/tableau-tables/python-tableau-parser
           python3 ssg.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
