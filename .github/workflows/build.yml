@@ -29,6 +29,14 @@ jobs:
       - name: Generate site
         run: |
           pip install markdown
+          pip install markdown_sub_sup
+          pip install markdown-del-ins
+          pip install markdown_mark
+          pip install markdown-gfm-admonition
+          pip install mdx_outline
+          pip install mdx_truly_sane_lists
+          pip install mdx_wikilink_plus
+          pip install python-tableau-parser
           python3 ssg.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
