@@ -1,3 +1,10 @@
+---
+Title: Test1
+Summary: This is a test
+Author: Will Shick
+Date: 2024/09/28
+---
+
 # HOME/ABOUT
 
 [Hero-shot image slideshow]
