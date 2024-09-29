@@ -2,9 +2,9 @@ from shutil import copytree
 
 import markdown
 # official_extensions = ['extra', 'admonition', 'meta', 'nl2br', 'smarty']
-# thirdparty_extensions = ['markdown_sub_sup', 'markdown_del_ins', 'markdown_mark', 'markdown_gfm_admonition', ~~'mdx_outline',~~ 'mdx_truly_sane_lists', 'mdx_wikilink_plus', 'python-tableau-parser']
+# thirdparty_extensions = ['markdown_sub_sup', 'markdown_del_ins', 'markdown_mark', 'markdown_gfm_admonition', ~~'mdx_outline',~~ 'mdx_truly_sane_lists', 'mdx_wikilink_plus', 'mdx_tableau']
 # all_extensions = [official_extensions + thirdparty_extensions]
-all_extensions = ['extra', 'admonition', 'meta', 'nl2br', 'smarty', 'markdown_sub_sup', 'markdown_del_ins', 'markdown_mark', 'markdown_gfm_admonition', 'mdx_truly_sane_lists', 'mdx_wikilink_plus', 'python-tableau-parser']
+all_extensions = ['extra', 'admonition', 'meta', 'nl2br', 'smarty', 'markdown_sub_sup', 'markdown_del_ins', 'markdown_mark', 'markdown_gfm_admonition', 'mdx_truly_sane_lists', 'mdx_wikilink_plus', 'mdx_tableau']
 
 # Copy static files to the build directory
 copytree("static/", "build/", dirs_exist_ok=True)
